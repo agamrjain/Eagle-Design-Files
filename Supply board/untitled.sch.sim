@@ -1,0 +1,146 @@
+
+Circuit: * spicenetlist
+
+Doing analysis at TEMP = 0.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+	Node                                  Voltage
+	----                                  -------
+	----	-------
+	n_4                             8.777000e-021
+	n_1                             4.388500e-021
+	n_7                             4.388500e-021
+
+	Source	Current
+	------	-------
+
+	v_v1#branch                     -4.82136e-038
+
+ Diode models (Junction Diode model)
+      model                  dmod
+
+      level                     1
+         is                1e-014
+        jsw                     0
+         rs                     0
+        trs                     0
+       trs2                     0
+          n                     1
+         ns                     1
+         tt                     0
+       ttt1                     0
+       ttt2                     0
+        cjo                     0
+         vj                     1
+          m                   0.5
+        tm1                     0
+        tm2                     0
+        cjp                     0
+        php                     1
+       mjsw                  0.33
+        ikf                     0
+        ikr                     0
+        nbv                     1
+       area                     1
+         pj                     0
+       tlev                     0
+      tlevc                     0
+         eg                  1.11
+        xti                     3
+        cta                     0
+        ctp                     0
+        ctp                     0
+        tpb                     0
+       tphp                     0
+       jtun                     0
+     jtunsw                     0
+       ntun                    30
+     xtitun                     3
+        keg                     1
+         kf                     0
+         af                     1
+         fc                   0.5
+        fcs                   0.5
+         bv                     0
+        ibv                 0.001
+        tcv                     0
+     fv_max                1e+099
+     bv_max                1e+099
+
+ Diode: Junction Diode model
+     device                  d_d2                  d_d1                  d_d5
+      model                  dmod                  dmod                  dmod
+         vd           4.3885e-021            8.777e-021          -4.3885e-021
+         id           4.3885e-033            8.777e-033          -4.3885e-033
+         gd           1.0046e-012           1.0046e-012           1.0046e-012
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device                  d_d4                  d_d3
+      model                  dmod                  dmod
+         vd          -4.3885e-021           4.3885e-021
+         id          -4.3885e-033           4.3885e-033
+         gd           1.0046e-012           1.0046e-012
+         cd                     0                     0
+
+ Vsource: Independent voltage source
+     device                  v_v1
+         dc                     0
+      acmag                   220
+      pulse                     0
+                              220
+                               50
+                                0
+                                0
+       sine                     0
+                              220
+                               50
+                                0
+                                0
+        sin                     0
+                              220
+                               50
+                                0
+                                0
+        exp                     0
+                              220
+                               50
+                                0
+                                0
+        pwl                     0
+                              220
+                               50
+                                0
+                                0
+       sffm                     0
+                              220
+                               50
+                                0
+                                0
+         am                     0
+                              220
+                               50
+                                0
+                                0
+    trnoise                     0
+                              220
+                               50
+                                0
+                                0
+   trrandom                     0
+                              220
+                               50
+                                0
+                                0
+          i         -4.82136e-038
+          p                     0
+
+
+Total elapsed time: 0.047 seconds.
+
+Total DRAM available = 16031.351563 MB.
+DRAM currently available = 7317.449219 MB.
+Total ngspice program size = 4.746094 MB.
+
+
